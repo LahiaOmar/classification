@@ -2,8 +2,6 @@
 
 from math import sqrt, exp, pi, pow
 
-MIN = -1
-
 class NaiveBayesClassifier:
   def __init__(self, dataSet):
     self.dataSet = dataSet
